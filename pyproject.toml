@@ -6,6 +6,8 @@ readme = "README.md"
 authors = [
     { name = "nadeem", email = "nadeemsangrasi903@gmail.com" }
 ]
+entry_point = "src/product_recommendation_agent/main.py"
+
 requires-python = ">=3.12"
 dependencies = [
     "asyncio>=3.4.3",
