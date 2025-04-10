@@ -75,7 +75,7 @@ source .venv/bin/activate
 4. Run via Chainlit:
 
 ```bash
-chainlit run src/product_recommendation_agent/main.py
+chainlit run src/main.py
 ```
 
 ---
