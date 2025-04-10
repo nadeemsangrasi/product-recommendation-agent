@@ -2,7 +2,7 @@
 
 An intelligent agentic system that interprets user queries, fetches real-time product data from Amazon and Walmart, and recommends the best-matching products with a clean Chainlit UI interface.
 
----
+--- 
 
 ## 🚀 Features
 
