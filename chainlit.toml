@@ -1,1 +1,1 @@
-PYTHONPATH=./src chainlit run src/product_recommendation_agent/main.py
+PYTHONPATH=./src chainlit run src/main.py

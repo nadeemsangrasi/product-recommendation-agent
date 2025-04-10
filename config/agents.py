@@ -1,5 +1,5 @@
 from agents import Agent,Runner,OpenAIChatCompletionsModel,RunConfig,function_tool,AsyncOpenAI
-from product_recommendation_agent.config.tools import initialize_tools
+from config.tools import initialize_tools
 import os
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 if not gemini_api_key:

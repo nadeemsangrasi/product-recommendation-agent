@@ -1,0 +1,25 @@
+chainlit: 2.0.0
+
+# Imterface Setting
+ui:
+  name: "Product Recommendation Agent"
+  description: "An intelligent agentic system that interprets user queries, fetches real-time product data from Amazon and Walmart, and recommends the best-matching products with a clean Chainlit UI interface."
+
+# Message setting
+default_expand_message: true
+
+# Auth setting
+auth:
+  required: true
+  providers:
+    - github
+    - google
+
+# OAuth Configuration
+oauth_providers:
+  github:
+    client_id: ${OAUTH_GITHUB_CLIENT_ID}
+    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET}
+  google:
+    client_id: ${OAUTH_GOOGLE_CLIENT_ID}
+    client_secret: ${OAUTH_GOOGLE_CLIENT_SECRET}

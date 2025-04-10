@@ -1,14 +1,42 @@
-# Welcome to Chainlit! 🚀🤖
+# 🛍️ Welcome to the Product Recommendation Agent!
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there! 👋  
+This is an intelligent, agentic system that helps you discover the **best-matching products** by interpreting your query, fetching live data from **Amazon and Walmart**, and recommending the most suitable options — all within a sleek Chainlit chat interface.
 
-## Useful Links 🔗
+---
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## ⚙️ What’s Under the Hood?
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+- 🧠 **Query Interpreter Agent**  
+  Structures your query into clean, searchable product criteria.
 
-## Welcome screen
+- 🔍 **Real-Time Market Scraper Agent**  
+  Fetches live product data from Amazon & Walmart APIs.
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+- 🎯 **Product Recommendation Agent**  
+  Analyzes and recommends the best match based on your query and scraped data.
+
+- 💬 **Chainlit UI**  
+  Interactive, real-time chat interface powered by Chainlit.
+
+---
+
+## 🚀 Get Started
+
+Just type a query like:
+
+> "Men's Nike running shoes under $100"
+
+…and watch the agentic magic unfold!
+
+---
+
+## 📚 Useful Links
+
+- 🔗 [Documentation (Chainlit)](https://docs.chainlit.io/)
+- 💬 [Community (Discord)](https://discord.gg/k73SQ3FyUh)
+
+---
+
+Built with ❤️ by **[Nadeem Khan](https://github.com/nadeemsangrasi)**  
+Fullstack Developer & Agentic Systems Enthusiast

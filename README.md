@@ -29,17 +29,11 @@ An intelligent agentic system that interprets user queries, fetches real-time pr
 
 ```
 
-product_recommendation_agent/
-│
 ├── src/
-│ └── product_recommendation_agent/
-│ ├── config/
-│ │ └── agents.py
-│ │ └── tools.py
-│ │
-│ ├── __init__.py
-│ └── main.py
-│
+│   ├── config/
+│   │   ├── agents.py
+│   │   └── tools.py
+│   └── main.py
 ├── .env
 └── README.md
 

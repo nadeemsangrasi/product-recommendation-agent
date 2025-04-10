@@ -1,7 +1,18 @@
 import chainlit as cl
 from agents import Runner
-from product_recommendation_agent.config.agents import initialize_agents
+from config.agents import initialize_agents
 import sys
+from typing import Optional,Dict
+
+@cl.oauth_callback
+def handle_oauth_callback(
+    provider_id: str,
+    token: str,
+    raw_user_data: Dict[str, str],
+    default_user: cl.User,
+) -> Optional[cl.User]:
+    # Optionally modify or enrich the default_user using raw_user_data.
+    return default_user
 
 
 @cl.set_starters
