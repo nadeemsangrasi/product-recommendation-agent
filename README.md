@@ -17,7 +17,7 @@ An intelligent agentic system that interprets user queries, fetches real-time pr
 ## 🧱 Tech Stack
 
 - 🐍 Python 3.10+
-- 🤖 [OpenAI Agent SDK](https://github.com/openai/openai-python)
+- 🤖 [OpenAI Agent SDK](https://openai.github.io/openai-agents-python/)
 - 🔗 [Chainlit](https://docs.chainlit.io/)
 - 🌐 Amazon & Walmart APIs
 - 🧪 Async Programming (`asyncio`)
@@ -47,7 +47,7 @@ An intelligent agentic system that interprets user queries, fetches real-time pr
 #!/bin/bash
 echo "Starting Product Recommendation Agentic System Chainlit UI on port 8080..."
 source .venv/bin/activate
-chainlit run src/product_recommendation_agent/main.py
+chainlit run src/main.py
 ```
 
 Run this command to launch the Chainlit interface.
